@@ -214,6 +214,9 @@ Fig. \ref{fig:fig4} (left) shows one-time deployment of 10 vehicles over $\mathc
 This paper presents a novel average-worst-case framework for the assignment of depots for DVR problem in light load.  Our method becomes unstable as the load increases, and obtaining the optimal solution requires  {\color{black}{a}} central entity. Future work will involve full consideration of various traffics conditions including congestion effects. 
 In addition, it should be of independent interest to efficiently {\color{black}{adapt}} DVR policies to work under a road map constraint.
 
+\section{Acknowledgments}
+This work was supported by Ford Motor Company.
+
 \bibliographystyle{IEEEtran}
 \bibliography{ref}
 
@@ -314,7 +317,7 @@ If $\mathbf{q} \in G_{k-1}(\lbrace \mathbf{x}_i \rbrace)$, then again by the def
 \[
 \left\| \mathbf{q} - \mathbf{x}_i \right\|
 \leq 
-\max_{\mathbf{x}_j \in G_{k-1}^{-1}(\lbrace \mathbf{q} \rbrace)}\left\| \mathbf{q} - \mathbf{x}_j \right\| \leq \min_{\mathbf{x}_l \in \mathbf{x} \setminus G_{k-1}^{-1}(\lbrace \mathbf{q} \rbrace)} \left\| \mathbf{q} - \mathbf{x}_l \right\|
+\max_{\mathbf{x}_j \in G_{k-1}^{-1}(\lbrace \mathbf{q} \rbrace)}\left\| \mathbf{q} - \mathbf{x}_j \right\| \leq \min_{\mathbf{x}_l \in \mathbf{x} \setminus G_{k-1}^{-1}(\lbrace \mathbf{q} \rbrace)} \left\| \mathbf{q} - \mathbf{x}_l \right\|.
 \]
 By using the properties of min, max operators, we have
 \[
@@ -339,7 +342,7 @@ $
 By using the property of the space partitioning (\ref{eq:eq09}), we can conclude that (\ref{eq:eq08}) is a \emph{partition} of $\mathcal{Q}$.
 \end{proof}
 \begin{proposition}
-Consider
+Let
 \begin{equation}
 \mathcal{U} = \lbrace \mathbf{q} \in \mathcal{Q}\,\mid\,\mathbf{q} \in G_{k}(\mathbf{x}_i) \setminus G_{k-1}(\lbrace \mathbf{x}_i \rbrace) \rbrace.
 \label{eq:eq0}
